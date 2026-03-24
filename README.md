@@ -41,9 +41,7 @@ The dataset contains the following key columns:
 | Sales | Revenue amount |
 | Profit | Profit earned |
 | Quantity | Quantity sold |
-
 ---
-
 ## 🔍 Analysis Performed
 
 ### ✔ SQL Analysis
@@ -64,9 +62,7 @@ The dataset contains the following key columns:
 - Sales by region (Bar chart)
 - Sales by category (Donut chart)
 - Profit by sub-category
-
 ---
-
 ## 📊 Key Insights
 
 - Technology category generated the highest revenue.
@@ -82,9 +78,7 @@ The dataset contains the following key columns:
 
 ![Dashboard](<img width="1447" height="912" alt="image" src="https://github.com/user-attachments/assets/4d227292-0987-41e9-84be-70cbf242c83b" />
 )
-
 ---
-
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Import Dataset into MySQL
@@ -101,13 +95,31 @@ Execute analysis queries from:
 Open Power BI:
 "C:\Users\Harshawardhan\Downloads\Elevate Lab\project dashboard.pbix"
 
+📁 Project Structure
+retail-business-analysis/
+│
+├── data/
+│   └── superstore.csv
+│
+├── sql/
+│   └── retail_queries.sql
+│
+├── python/
+│   └── retail_analysis.py
+│
+├── dashboard/
+│   └── retail_dashboard.pbix
+│
+├── report/
+│   └── final_report.pdf
+│
+├── images/
+│   └── dashboard.png
+│
+└── README.md
+
 🎯 Outcome
 This project demonstrates how data analysis techniques can be used to extract business insights, improve profitability, and support decision-making in retail operations.
 
 👤 Author
 Harsh Nikam
-
-
-```sql
-CREATE DATABASE retail_project;
-USE retail_project;# Retail-Business-Performance-Profitability-Analysis.
